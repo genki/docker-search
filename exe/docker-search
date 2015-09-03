@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 #
 require "bundler/setup"
-require "./lib/docker/search"
+require File.join(__dir__, "../lib/docker/search")
 
 Docker::Search.run

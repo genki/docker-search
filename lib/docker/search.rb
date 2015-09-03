@@ -1,4 +1,4 @@
-require "docker/search/version"
+require File.join(__dir__, "search/version")
 require 'optparse'
 require 'json'
 require 'net/https'
